@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.container {
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  margin: auto;
+  height: 95vh;
+}
+.title {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+  font-family: "Papyrus", Fantasy;
+  padding: 50px;
+  text-align: center;
+}
+.content {
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.content p {
+  padding: 20px;
+  font-size: 20px;
+}
+.ul {
+  padding: 20px;
+}
+.ul li {
+  font-size: 20px;
+  margin-left: 50px;
+}
+.hurufpertama {
+  margin-left: 50px;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-text-stroke: 2px black;
+}
+.tableku {
+  margin: auto;
+  text-align: center;
+  width:100%;
+}
